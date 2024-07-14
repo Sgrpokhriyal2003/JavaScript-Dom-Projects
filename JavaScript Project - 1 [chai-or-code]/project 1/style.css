@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid rgb(226, 31, 31);
+    text-align: center;
+    background-color: #de2856;
+    color: #fff
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(29, 10, 10);
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid grey
+}
+#grey{
+    background-color: grey;
+    margin: 5px;
+    border: 2px solid black;
+}
+#white{
+    background-color: white;
+    margin: 5px;
+    border: 2px solid black
+}
+
+#blue{
+    background-color: blue;
+    margin: 5px;
+    border: 2px solid black
+}
+#yellow{
+    background-color: yellow;
+    margin: 5px;
+    border: 2px solid black
+}
